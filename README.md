@@ -1,10 +1,10 @@
-#Predicting House Prices with Machine Learning
+# Predicting House Prices with Machine Learning
 
 **Machine Learning** is a powerful tool for predicting house prices, helping buyers, sellers, and investors make smarter decisions in the real estate market. By analyzing a lot of data, ML models can give accurate, data-driven price estimates, making the market more transparent and helping with better financial planning.
 
 In this beginner-friendly project, we’re going to predict house prices based on features like the number of bedrooms, bathrooms, floor level, square footage, and more. We’ll build a simple regression model using Python and libraries like Pandas, NumPy, Matplotlib, Seaborn, and Scikit-Learn. The plan is to do a quick exploratory data analysis and then move on to building, evaluating, and improving the model.
 
-##The Dataset
+## The Dataset
 The dataset we’ll be working with includes house sales from King County, which covers the Seattle area. It contains 21 features and over 21,000 rows, representing homes sold between May 2014 and May 2015. You can find the dataset [here](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction).
 
 **id** — A notation for a house
@@ -49,11 +49,11 @@ The dataset we’ll be working with includes house sales from King County, which
 
 **sqft_lot15** — LotSize area in 2015 (implies some renovations)
 
-##Data Analysis and Model Building
+## Data Analysis and Model Building
 
 **Codes are located in the *house_price_prediction.py* folder.**
 
-##Conclusion
+## Conclusion
 The R² improvement shows that the model got much better through the different steps (model development, pipeline, and evaluation).
 
 By using Ridge Regression and applying a second-order polynomial transform during the evaluation, the model was able to capture the relationships between features and price more effectively, making it better at generalizing to new data.
